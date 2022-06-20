@@ -54,3 +54,40 @@
 #main-nav .connect img {
     padding-right: 1rem;
 }
+
+#main {
+    margin-top: 4rem;
+}
+
+#main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+#main .container .description p {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+#main .container .description p:first-child {
+    margin-bottom: 1rem;
+}
+
+#main .container .description span {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+#main .container .title-description h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#main .container .title-description span {
+    color: var(--color-logo);
+}
