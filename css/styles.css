@@ -7,3 +7,50 @@
     --black-text: #000;
     --color-input: #0D0D0D;
 }
+
+.container {
+    max-width: 1570px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.background-image {
+    background: url('../images/background.png');
+    background-size: 100% 100%;
+    padding: 4rem 0;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-nav .options-nav a {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 1rem;
+}
+
+#main-nav .connect {
+    display: flex;
+    align-items: center;
+    background-color: var(--text-color);
+    padding: 0.5rem 2rem;
+}
+
+
+#main-nav .connect {
+    color: var(--black-text);
+    font-size: 16px;
+}
+
+#main-nav .connect a {
+    color: var(--black-text);
+    font-weight: bold;
+}
+
+#main-nav .connect img {
+    padding-right: 1rem;
+}
