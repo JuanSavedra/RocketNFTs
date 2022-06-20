@@ -17,7 +17,11 @@
 .background-image {
     background: url('../images/background.png');
     background-size: 100% 100%;
-    padding: 4rem 0;
+    padding-top: 4rem;
+}
+
+body {
+    background-color: var(--body-background);
 }
 
 #main-nav {
@@ -90,4 +94,23 @@
 
 #main .container .title-description span {
     color: var(--color-logo);
+}
+
+#astronauts {
+    margin-top: 2rem;
+}
+
+#astronauts .container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#astronauts .container ul li {
+    margin-top: 1rem;
+}
+
+#astronauts .container ul li img {
+    border: 2px solid var(--text-color);
 }
