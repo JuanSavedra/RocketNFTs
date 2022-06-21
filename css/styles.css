@@ -20,6 +20,10 @@
     padding-top: 4rem;
 }
 
+.background-default {
+    background-color: var(--body-background);
+}
+
 body {
     background-color: var(--body-background);
 }
@@ -59,40 +63,40 @@ body {
     padding-right: 1rem;
 }
 
-#main {
+#main-background {
     margin-top: 4rem;
 }
 
-#main .container {
+#main-background .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
 }
 
-#main .container .description p {
+#main-background .container .description p {
     font-size: 18px;
     font-weight: normal;
     color: var(--text-color);
 }
 
-#main .container .description p:first-child {
+#main-background .container .description p:first-child {
     margin-bottom: 1rem;
 }
 
-#main .container .description span {
+#main-background .container .description span {
     font-size: 18px;
     font-weight: normal;
     color: var(--text-color);
 }
 
-#main .container .title-description h1 {
+#main-background .container .title-description h1 {
     font-size: 50px;
     font-weight: bold;
     color: var(--text-color);
 }
 
-#main .container .title-description span {
+#main-background .container .title-description span {
     color: var(--color-logo);
 }
 
@@ -113,4 +117,80 @@ body {
 
 #astronauts .container ul li img {
     border: 2px solid var(--text-color);
+}
+
+#background-default {
+    border-bottom: 2px solid var(--subtitle-color);
+}
+
+#background-default .container {
+    display: flex;
+}
+
+#background-default .container .infos {
+    border-right: 2px solid var(--subtitle-color);
+}
+
+#background-default .container .infos .list ul {
+    margin: 4rem 8rem 4rem 0;
+}
+
+#background-default .container .infos .list ul {
+    margin: 4rem 4rem 4rem 0;
+}
+
+#background-default .container .infos .list ul {
+    margin: 4rem 4rem 4rem 0;
+}
+
+#background-default .container .infos .list ul li {
+    padding: 2rem;
+}
+
+#background-default .container .infos .list ul li h1 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#background-default .container .infos .list ul li p {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#background-default .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#background-default .container .content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#background-default .container .content div div {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+#background-default .container .content div div p {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+
+#background-default .container .content div div p span {
+    color: var(--color-logo);
+}
+
+#background-default .container .content div div a {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    color: var(--text-color);
+    margin-top: 3rem;
 }
