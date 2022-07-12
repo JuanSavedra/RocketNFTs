@@ -3,11 +3,7 @@ Desafio da Rocketseat para criar uma landingpage sobre NFTs.
 
 ## Detalhes do projeto:
 ### Contém
-- ✔️ Navbar.
-- ✔️ Header.
-- ✔️ Seções. 
-- ✔️ Imagens das NFTs.
-- ✔️ Informações Gerais.
+- ✔️ Coisas padrões de uma landingpage.
 
 ### Falta fazer
 -  ❗ Funcionalidades Javascript.
